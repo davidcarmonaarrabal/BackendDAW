@@ -71,7 +71,7 @@ function MenuPrincipal() {
             <Link className={classLink} href={ slug(menu[7])}> { menu[23] } </Link>
             <Link className={classLink} href={ slug(menu[7])}> { menu[24] } </Link>
         </div>
-     );
+    );
 }
 
 export default MenuPrincipal;
