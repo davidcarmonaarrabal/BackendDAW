@@ -1,6 +1,7 @@
 import Image from "next/image";
-import tutorImage from '../app/tutor-and-student.png';  
 import Link from "next/link";
+import tutorImage from '../app/tutor-and-student.png';  
+import Titulo from "@/components/titulo";
 
 export const metadata = {
   title: "Mondongo"
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <div className="pl-6 pt-4 pr-10">
       <header>
-        <h1 className="text-3xl border-b-blue-500 border-b-[3px] font-black text-blue-500 pb-3 ">Información general: convalidaciones, exenciones y títulos</h1>
+        <Titulo>Información general: convalidaciones, exenciones y títulos</Titulo>
       </header>
       <div className="flex flex-col items-start md:flex-row">
         <div className="w-[90%] pr-4">
@@ -42,8 +43,8 @@ export default function Home() {
         </table>
       </div>
       <div className="flex justify-end pr-10">
-        <Link href={"/informacion_general_convalidaciones_exenciones_y_titulos"}>
-          <button className="bg-blue-200 p-1 rounded-r-full font-bold hover:bg-blue-300 transition duration-200">Siguiente {'>>'} </button>
+        <Link href={"/1_solicitud_de_convalidaciones"}>
+          <button className="bg-blue-100 p-1 rounded-r-full font-bold hover:bg-blue-200 transition duration-200 text-blue-900">Siguiente {'>>'} </button>
         </Link>
       </div>
     </div>
