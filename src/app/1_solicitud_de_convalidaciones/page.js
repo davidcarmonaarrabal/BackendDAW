@@ -4,14 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Mondongo"
+  title: "1.- Solicitud de convalidaciones"
 };
 
 export default function Home() {
   return (
     <div className="pl-6 pt-4 pr-10">
       <header>
-        <Titulo>1.- Solicitud de convalidaciones</Titulo>
+        <Titulo> {metadata.title} </Titulo>
       </header>
 
       <div className="bg-blue-200 mt-7 p-3 pl-6 pr-6 rounded-xl shadow-[5px_5px_0px_rgba(0,0,0,0.1)]">
@@ -28,7 +28,6 @@ export default function Home() {
             <button className="bg-blue-100 p-1 rounded-r-full font-bold hover:bg-blue-200 transition duration-200 ml-0.5 text-blue-900">Siguiente {'>>'} </button>
           </Link>
       </div>
-      <Nav/>
     </div>
   );
 }

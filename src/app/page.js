@@ -4,14 +4,14 @@ import tutorImage from '../app/tutor-and-student.png';
 import Titulo from "@/components/titulo";
 
 export const metadata = {
-  title: "Mondongo"
+  title: "Información general: convalidaciones, exenciones y títulos"
 };
 
 export default function Home() {
   return (
     <div className="pl-6 pt-4 pr-10">
       <header>
-        <Titulo>Información general: convalidaciones, exenciones y títulos</Titulo>
+        <Titulo> {metadata.title} </Titulo>
       </header>
       <div className="flex flex-col items-start md:flex-row">
         <div className="w-[90%] pr-4">

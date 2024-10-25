@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { menu,slug } from "@/lib/utils";
 
 function Nav( {pos} ) {
     return (

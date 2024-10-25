@@ -21,10 +21,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-screen `}>
-        <aside className="w-[300px]">
           <MenuPrincipal />
-        </aside>
-        <main className="h-full grow">
+        <main className="h-full grow overflox-y-auto">
           {children}
         </main>
 
