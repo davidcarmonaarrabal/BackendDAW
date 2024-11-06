@@ -18,10 +18,10 @@ function MenuPrincipal() {
             {open
                 ? <Menu
                 onClick={() => setOpen(false)}
-                className="fixed top-2 right-2 bg-blue-100 pl-2 pr-2 size-[40px] rounded-xl shadow-xl" />
+                className="fixed top-2 right-2 bg-blue-100 pl-2 pr-2 size-[40px] rounded-xl shadow-xl hover:bg-blue-400 transition duration-200" />
                 : <Menu
                 onClick={() => setOpen(true)}
-                className="fixed top-2 right-2 bg-blue-100 pl-2 pr-2 size-[40px] rounded-xl shadow-xl" />
+                className="fixed top-2 right-2 bg-blue-100 pl-2 pr-2 size-[40px] rounded-xl shadow-xl hover:bg-blue-400 transition duration-200" />
             }
             
 

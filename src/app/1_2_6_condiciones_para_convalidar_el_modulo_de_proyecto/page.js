@@ -1,12 +1,24 @@
+import Nav from "@/components/nav";
+import Titulo from "@/components/titulo";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Mondongo"
+  title: "1.2.6.- Condiciones para convalidar el módulo de proyecto"
 };
 
 export default function Home() {
   return (
-    <h1 className="text-4xl border-[3px] border-blue-500 font-black text-blue-500 pb-3">Información general: convalidaciones, exenciones y títulos</h1>
+    <div className="pl-6 pt-4 pr-10">
+      <header>
+        <Titulo> {metadata.title} </Titulo>
+      </header>
+      <div className="pt-6">
+        <p>El módulo profesional de Proyecto correspondiente a títulos de Formación profesional de grado superior no podrá ser objeto de convalidación ni de exención en ningún caso.</p>
+      </div>
+      <div>
+        <Nav pos={11} />
+      </div>
+    </div>
   );
 }
     
