@@ -30,7 +30,7 @@ export default function Home() {
         <p className="pb-3 font-bold">Información sobre la exención de la FCT:</p>
         <p className="flex items-start"> ✓
           <i className="fas fa-check text-green-500 mt-1 mr-2"></i>
-          <span>Apartado "¿Cómo se solicita la exención del módulo profesional de Formación en Centros de Trabajo (FCT)?", en el siguiente enlace:</span>
+          <span>Apartado &quot;¿Cómo se solicita la exención del módulo profesional de Formación en Centros de Trabajo (FCT)?&quot;, en el siguiente enlace:</span> 
         </p>
         <p className="ml-4"><Link href="https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/estudiante/posibilidades-tras-formarme/convalidaciones-modulos" className="underline text-blue-700 hover:text-blue-800">Convalidaciones entre módulos profesionales</Link>.</p>
       </div>
