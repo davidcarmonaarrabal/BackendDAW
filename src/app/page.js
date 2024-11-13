@@ -13,7 +13,11 @@ export default function Home() {
       <header>
         <Titulo> {metadata.title} </Titulo>
       </header>
+
+
+
       <div className="flex flex-col items-start md:flex-row">
+
         <div className="w-[90%] pr-4">
           <p className="pt-6">Antes de empezar debemos aclarar la diferencia entre convalidación, exención y traslado de calificación. La convalidación es el procedimiento por el 
             cual se recono  ce como superado un módulo que contiene los contenidos del módulo, módulos profesionales, asignatura o unidad de competencia que se 
@@ -22,10 +26,15 @@ export default function Home() {
             y superado.</p>
           <p className="pt-3">A continuación, se muestra información tutorial que esperamos que te sea de utilidad.</p>
         </div>
+
         <div className="w-[170px] pr-6 pt-10">
           <Image src={tutorImage} alt="Tutor y alumno" layout="responsive" width={130} height={135} className="w-full"></Image>
         </div>
+        
       </div>
+
+
+
       <div className="pt-6 flex justify-center">
         <table className="border-separate">
           <tr className="hover:bg-blue-200 transition duration-100">
