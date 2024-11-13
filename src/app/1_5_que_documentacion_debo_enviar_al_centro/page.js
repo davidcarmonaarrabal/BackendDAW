@@ -17,7 +17,7 @@ export default function Home() {
         <p>Debes presentar la solicitud de convalidación de módulos profesionales, acompañada de la documentación establecida correspondiente, en el centro. <b>En ningún caso puedes enviar por tu cuenta la solicitud al Ministerio.</b></p>
         <p className="flex items-start pt-3">✓
           <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
-          <span><b>Solicitud de convalidación</b> que encuentras en este <b>enlace (&quot;ver Impreso solicitud convalidación módulos profesionales&quot;)</b>. En ese documento es imprescindible que cumplimentes todos los apartados. En este enlace puedes consultar los módulos de cada ciclo impartido con <b>su nombre y el código exacto. Para ello, debes desplegar dentro de cada centro, el apartado "Módulos ofertados de este ciclo". Recuerda que el plazo para enviar la solicitud de convalidación concluye a finales de octubre</b>.</span>
+          <span><b>Solicitud de convalidación</b> que encuentras en este <b>enlace (&quot;ver Impreso solicitud convalidación módulos profesionales&quot;)</b>. En ese documento es imprescindible que cumplimentes todos los apartados. En este enlace puedes consultar los módulos de cada ciclo impartido con <b>su nombre y el código exacto. Para ello, debes desplegar dentro de cada centro, el apartado &quot;Módulos ofertados de este ciclo&quot;. Recuerda que el plazo para enviar la solicitud de convalidación concluye a finales de octubre</b>.</span>
         </p>
         <p className="flex items-start pt-3">✓
           <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
