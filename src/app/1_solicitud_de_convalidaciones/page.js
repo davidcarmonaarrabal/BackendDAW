@@ -14,7 +14,7 @@ export default function Home() {
         <Titulo> {metadata.title} </Titulo>
       </header>
 
-      <div className="bg-blue-200 mt-7 p-3 pl-6 pr-6 rounded-xl shadow-[5px_5px_0px_rgba(0,0,0,0.1)]">
+      <div className="bg-blue-200 mt-7 p-3 pl-6 pr-6 rounded-xl shadow-[5px_5px_0px_rgba(0,0,0,0.1)] ml-6 mr-6">
         <p>Aquí encontrarás información acerca de cómo solicitar la convalidación de un módulo profesional y la exención del módulo de Formación en Centros de Trabajo.</p>
         <div className="w-[200px] flex justify-center mx-auto">
           <Image src="/balanza.png" alt="Tutor y alumno" layout="responsive" width={50} height={50}></Image>

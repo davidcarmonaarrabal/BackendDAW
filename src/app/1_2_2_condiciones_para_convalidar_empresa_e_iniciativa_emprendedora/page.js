@@ -27,7 +27,7 @@ export default function Home() {
           <span><b>Poseer el Título de Técnico en Gestión administrativa o Técnico superior en Administración y finanzas</b>.</span>
         </p>
       </div>
-      <div className="pt-4 flex justify-center">
+      <div className="pt-4 flex justify-center pr-16 pl-16">
         <table className="border-separate">
           <tr className="hover:bg-blue-200 transition duration-100">
             <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center">Módulo a convalidar</td>

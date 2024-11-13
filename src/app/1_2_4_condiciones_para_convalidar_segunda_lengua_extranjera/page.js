@@ -15,7 +15,7 @@ export default function Home() {
       <div className="pt-6">
         <p>Para poder convalidar el módulo de Segunda Lengua Extranjera debe aportarse siempre estudios cursados y superados en la misma lengua que se desee convalidar. Es necesario acreditar alguna de las siguientes condiciones:</p>
       </div>
-      <div className="pt-4 flex justify-center">
+      <div className="pt-4 flex justify-center pr-16 pl-16">
         <table className="border-separate">
           <tr className="hover:bg-blue-200 transition duration-100">
             <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center">Módulo a convalidar</td>
@@ -78,7 +78,7 @@ export default function Home() {
           </tr>
         </table>
       </div>
-      <div className="bg-yellow-100 border-black border-[1px] mt-7 p-3 pl-6 pr-6 rounded-xl shadow-[5px_5px_0px_rgba(0,0,0,0.1)]">
+      <div className="bg-yellow-100 border-black border-[1px] mt-7 p-3 pl-6 pr-6 rounded-xl shadow-[5px_5px_0px_rgba(0,0,0,0.1)] ml-6 mr-6">
         <div className="flex items-center space-x-4">
           <Image src="/Nota.png" alt="Nota" width="80" height="80"></Image>
           <h1 className="text-4xl font-bold text-red-900">Para saber más</h1>

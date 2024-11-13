@@ -35,7 +35,7 @@ export default function Home() {
 
 
 
-      <div className="pt-6 flex justify-center">
+      <div className="pt-6 flex justify-center ml-6 mr-6">
         <table className="border-separate">
           <tr className="hover:bg-blue-200 transition duration-100">
             <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px]">Elaborado por:</td>

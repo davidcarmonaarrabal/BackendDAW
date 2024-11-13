@@ -26,7 +26,7 @@ export default function Home() {
           <span><b>Documentación acreditativa</b> que justifique la experiencia laboral.</span>
         </p>
       </div>
-      <div className="bg-blue-200 mt-10 p-3 pl-6 pr-6 rounded-xl shadow-[5px_5px_0px_rgba(0,0,0,0.1)]">
+      <div className="bg-blue-200 mt-10 p-3 pl-6 pr-6 rounded-xl shadow-[5px_5px_0px_rgba(0,0,0,0.1)] ml-6 mr-6">
         <p className="pb-3 font-bold">Información sobre la exención de la FCT:</p>
         <p className="flex items-start"> ✓
           <i className="fas fa-check text-green-500 mt-1 mr-2"></i>

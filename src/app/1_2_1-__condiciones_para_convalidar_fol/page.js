@@ -49,7 +49,7 @@ export default function Home() {
             <li><b>Tener aprobado el módulo de FOL en un Ciclo LOGSE de Grado Superior (Ley Orgánica 1/1990, de 3 de octubre).</b></li>
           </ul>
         </div>
-        <div className="pt-4 flex justify-center">
+        <div className="pt-4 flex justify-center pr-16 pl-16">
           <table className="border-separate">
             <tr className="hover:bg-blue-200 transition duration-100">
               <td className="bg-blue-200 p-1 font-bold border-blue-200 border-[1px] text-center">Módulo a convalidar</td>
