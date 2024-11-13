@@ -1,7 +1,9 @@
+import Nav from "@/components/nav";
+import Titulo from "@/components/titulo";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Mondongo"
+  title: "2.- Solicitud del título *"
 };
 
 export default function Home() {
@@ -11,7 +13,7 @@ export default function Home() {
         <Titulo> {metadata.title} </Titulo>
       </header>
       <div>
-        <Nav pos={4} />
+        <Nav pos={21} />
       </div>
     </div>
   );
