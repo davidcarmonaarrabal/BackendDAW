@@ -16,7 +16,7 @@ export default function Home() {
 
 
 
-      <div className="flex flex-col items-start md:flex-row">
+      <div className="flex flex-col items-start ml:flex-row">
 
         <div className="w-[90%] pr-4">
           <p className="pt-6">Antes de empezar debemos aclarar la diferencia entre convalidación, exención y traslado de calificación. La convalidación es el procedimiento por el 
