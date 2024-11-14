@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="flex flex-col items-start ml:flex-row">
 
-        <div className="w-[90%] pr-4">
+        <div className="w-[80%] pr-4">
           <p className="pt-6">Antes de empezar debemos aclarar la diferencia entre convalidación, exención y traslado de calificación. La convalidación es el procedimiento por el 
             cual se recono  ce como superado un módulo que contiene los contenidos del módulo, módulos profesionales, asignatura o unidad de competencia que se 
             aporta. La exención solo se aplica al módulo profesional de formación en centros de trabajo y se debe aportar una experiencia profesional acreditable 
