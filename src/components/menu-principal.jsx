@@ -5,7 +5,7 @@ import { useState } from "react";
 import { menu, slug } from "@/lib/utils";
 
 
-const classLink = "underline text-blue-700 block bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200";
+const classLink = "block bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200";
 
 function MenuPrincipal() {
 
