@@ -30,18 +30,18 @@ function MenuPrincipal() {
             <aside className="w-[300px] bg-blue-200 border p-3 rounded-xl shrink-0">
                 <Link className={`${classLink}`} href={"/"}> {menu[0]} </Link>
                 <details>
-                    <summary className="underline text-blue-700 bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200    ">
+                    <summary className="bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200    ">
                         <Link href={slug(menu[1])}> {menu[1]} </Link>
                     </summary>
                     <details>
-                        <summary className="underline text-blue-700 bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200 ml-2   ">
+                        <summary className="bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200 ml-2   ">
                             <Link href={slug(menu[2])}>{menu[2]}</Link>
                         </summary>
                         <Link className={`${classLink} ml-4`} href={slug(menu[3])}> {menu[3]} </Link>
                         <Link className={`${classLink} ml-4`} href={slug(menu[4])}> {menu[4]} </Link>
                     </details>
                     <details>
-                        <summary className="underline text-blue-700 bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200 ml-2   ">
+                        <summary className="bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200 ml-2   ">
                             <Link href={slug(menu[5])}> {menu[5]} </Link>
                         </summary>
                         <Link className={`${classLink} ml-4`} href={slug(menu[6])}> {menu[6]} </Link>
@@ -62,7 +62,7 @@ function MenuPrincipal() {
                     <Link className={`${classLink} ml-2`} href={slug(menu[20])}> {menu[20]} </Link>
                 </details>
                 <details>
-                    <summary className="underline text-blue-700 bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200    ">
+                    <summary className="bg-blue-50 p-2 rounded-md mb-1 hover:bg-blue-400 transition duration-200    ">
                         <Link href={slug(menu[21])}> {menu[21]} </Link>
                     </summary>
                     <Link className={`${classLink} ml-2`} href={slug(menu[22])}> {menu[22]} </Link>
