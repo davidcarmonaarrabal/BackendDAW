@@ -14,10 +14,10 @@ export default function Home() {
         <Titulo> {metadata.title} </Titulo>
       </header>
       <div className="flex flex-col items-start md:flex-row pt-6">
-        <div className="w-[80%]">
+        <div className="w-[80%] pr-4">
           <p>Cuando el centro en el que pides el título reciba la documentación, te devolverá el resguardo indicando que el título se encuentra en trámite. Resguardo que deberás guardar junto con el ejemplar para el interesado del impreso 046 hasta la llegada del título. Este puede tardar varios años en llegar al centro, será entonces cuando se te comunicará por correo que ya puedes recogerlo (también podrás recibirlo a través de las Delegaciones Territoriales).</p>
         </div>
-        <div className="w[100px]">
+        <div className="w[100px] pr-6">
           <Image src="/ninia.png" alt="Tutor y alumno" layout="responsive" width={50} height={50}></Image>
         </div>
       </div>
